@@ -80,7 +80,9 @@
             <artifactId>hapi-fhir-base</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
+
         <!-- This dependency includes the EmailSenderImpl we will be using instead of standard javamail.-->
+        
         <dependency>
             <groupId>ca.uhn.hapi.fhir</groupId>
             <artifactId>hapi-fhir-jpaserver-subscription</artifactId>
